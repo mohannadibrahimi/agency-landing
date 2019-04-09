@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700,900');
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 14px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+h1{
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+}
+
+.full-bg{
+    z-index: -10;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.75), 
+        rgba(0, 0, 0, 0.75)
+      ), url('bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 25%;
+}
+
+.full-bg h1{
+    border-left: 4px solid blue;
+    padding-left: 10px;
+    margin-left: -2px;
+}
+
+.q{
+    box-sizing: border-box;
+    border-right: 1px solid #54545470;
+    position: absolute;
+    height: 100vh;
+    width: 25%;
+    z-index: -8;
+}
+
+#b{
+    margin-left: 25%;
+}
+
+#c{
+    margin-left: 50%;
+}
+
+.nav-full{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 5px 8px;
+}
+
+.logo{
+    line-height: 95%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+aside{
+    display: flex;
+    height: 100vh;
+    width: 25%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    padding: 0px 0px 25px 25px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
