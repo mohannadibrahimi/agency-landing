@@ -9,6 +9,10 @@
     font-family: 'Exo', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 h1{
     font-size: 3.5rem;
     letter-spacing: 1px;
@@ -167,6 +171,7 @@ aside{
         padding: 50px 0px;
         box-sizing: border-box;
         transform: translateX(100%);
+        transition: all 1s ease-in-out;
     }
 
     .menu-close{
